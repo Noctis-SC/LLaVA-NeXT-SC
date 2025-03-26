@@ -1,0 +1,174 @@
+/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+Examples directory created at: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/examples
+Using device: cuda
+Loaded LLaVA model: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/LLaVA-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]
+/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+OpenCLIP not installed
+Examples directory created at: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/examples
+Using device: cuda
+Loaded LLaVA model: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/LLaVA-Video-7B-Qwen2
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02s/it]
+Model Class: LlavaQwenForCausalLM
+Model loaded successfully
+* Running on local URL:  http://0.0.0.0:7860
+* Running on public URL: https://3c3718b40f8687ff75.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Generated response: The video shows a residential area with a house, a sidewalk, and a street. A person wearing a high-visibility vest is seen walking towards the house, carrying a package. The person approaches the front door, places the package on the porch, and then walks away.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: The video shows a residential area with a house, a sidewalk, and a street. A person wearing a high-visibility vest is seen walking towards the house, carrying a package. The person approaches the front door, places the package on the porch, and then walks away.
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+Generated response: The video opens with a view of a porch area, featuring a concrete floor and two potted plants on either side. There are three cardboard boxes stacked on the floor. A person wearing dark clothing enters the frame from the right, approaches the boxes, and begins to pick them up one by one. The person then exits the frame to the left, carrying the boxes away.
+Processing video: /tmp/gradio/c1febae7bc9d0d284e642e2e0155a8150a1985a094dd6b3008ee5bb7e847110f/istockphoto-1588326417-640_adpp_is.mp4
+Generated response: The video features a person in a yellow dress interacting with a small, grey and white dog. The setting is a living room with a grey sofa, patterned cushions, and a potted plant. The person is seen petting the dog, who appears relaxed and content. The dog is wearing a blue collar and has a black bandana around its neck. The interaction includes gentle petting, playing with a toy, and feeding the dog. The dog responds by wagging its tail and showing affection towards the person.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: The video shows a residential area with a house, a sidewalk, and a street. A person wearing a high-visibility vest is seen walking towards the house, carrying a package. The person approaches the front door, places the package on the porch, and then walks away.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 406, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/gradio/route_utils.py", line 796, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/gradio/route_utils.py", line 812, in simple_response
+    await self.app(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/gradio/routes.py", line 1373, in upload_file
+    form = await multipart_parser.parse()
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/gradio/route_utils.py", line 650, in parse
+    async for chunk in self.stream:
+  File "/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/starlette/requests.py", line 235, in stream
+    raise ClientDisconnect()
+starlette.requests.ClientDisconnect
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+Generated response: The video opens with a view of a porch area, featuring a concrete floor and two potted plants on either side. There are three cardboard boxes stacked on the floor. A person wearing dark clothing enters the frame from the right, approaches the boxes, and begins to pick them up one by one. The person then exits the frame to the left, carrying the boxes away.
+Processing video: /tmp/gradio/07928834d4be8b7872cc01f16c25075a5a5d951152a8466ff2aaf4598210b625/camera_1709532109455.mp4
+Generated response: The video shows a small, gray and white cat with black spots on its back walking into a room with wooden flooring. The room has a large window with curtains, through which an urban landscape is visible. There are several potted plants on shelves against the wall, and a white cabinet is also visible. The cat approaches a pink bowl placed on the floor, sniffs it, and then walks away. The time displayed in the video is 20:43:01, and the date is 09-04.
+Processing video: /tmp/gradio/b1f51db07dd9d568696b02f3407e09ea61cac269110a26bf5572a5ded68b24b3/5631-183849543_large.mp4
+Generated response: The video features a black and white dog with a medium-length coat, appearing to be a Border Collie. The dog is seen approaching a white bowl placed on the floor in what seems to be a domestic setting, possibly a kitchen or dining area. The dog's actions suggest it is either about to eat from the bowl or has just finished eating. The environment includes a wooden table and a white wall in the background.
+Processing video: /tmp/gradio/d4cc7ec2670e6a9a4562b2c22f4cc18dcd9d3d6793291d4a4518e6826e2a9802/camera_1689120616079.mp4
+Generated response: The video shows a man in a light-colored shirt and dark pants walking down a stairwell. The stairwell has a red handrail on the right side, and there are walls with circular mirrors and a letter 'A' sign. The man is holding a smartphone in his right hand. The time displayed on the screen changes from 08:05:13 to 08:05:17.
+Traceback (most recent call last):
+  File "/root/autodl-tmp/sanya/LLaVA-NeXT-SC/demo_gradio_example.py", line 126, in <module>
+    import gradio as gr
+ModuleNotFoundError: No module named 'gradio'
+Traceback (most recent call last):
+  File "/root/autodl-tmp/sanya/LLaVA-NeXT-SC/demo_gradio_example.py", line 126, in <module>
+    import gradio as gr
+ModuleNotFoundError: No module named 'gradio'
+/root/autodl-tmp/miniconda3/envs/gradio_demo/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+OpenCLIP not installed
+Examples directory created at: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/examples
+Using device: cuda
+Loaded LLaVA model: /root/autodl-tmp/sanya/LLaVA-NeXT-SC/LLaVA-Video-7B-Qwen2
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.18s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02s/it]
+Model Class: LlavaQwenForCausalLM
+Model loaded successfully
+* Running on local URL:  http://0.0.0.0:7860
+* Running on public URL: https://1ef67f42550e8443ff.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Generated response: A person wearing a dark jacket and jeans is seen approaching the front door of a house, picking up a package from the porch, and then leaving.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: A person wearing a high-visibility vest and carrying a package approaches the house, climbs the steps, and enters through the door.
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+Generated response: A person wearing a dark jacket and jeans is seen approaching the front door of a house, picking up a package from the porch, and then leaving.
+Processing video: /tmp/gradio/c1febae7bc9d0d284e642e2e0155a8150a1985a094dd6b3008ee5bb7e847110f/istockphoto-1588326417-640_adpp_is.mp4
+Generated response: The video shows a person in a yellow dress interacting with a small, grey and white dog. The person is seen petting the dog, playing with it, and feeding it treats. The dog appears to be enjoying the interaction, wagging its tail and looking up at the person.
+Processing video: /tmp/gradio/9e0cf1f47219fbcdf9d8cde80f01aa59d35319867a50b6d9657c226c15858ad8/istockphoto-1318447934-640_adpp_is.mp4
+Generated response: The video shows a golden retriever dog lying on a grey bedspread, chewing on a colorful rope toy. The dog appears relaxed and content, with its eyes half-closed and mouth open in a playful manner.
+Processing video: /tmp/gradio/b1f51db07dd9d568696b02f3407e09ea61cac269110a26bf5572a5ded68b24b3/5631-183849543_large.mp4
+Generated response: The video shows a black and white dog approaching a white bowl on the floor. The dog sniffs the bowl, then begins to eat from it.
+Processing video: /tmp/gradio/d4cc7ec2670e6a9a4562b2c22f4cc18dcd9d3d6793291d4a4518e6826e2a9802/camera_1689120616079.mp4
+Generated response: The video shows a man in a white shirt and dark pants walking down a stairwell with a red handrail.
+Processing video: /tmp/gradio/b1f51db07dd9d568696b02f3407e09ea61cac269110a26bf5572a5ded68b24b3/5631-183849543_large.mp4
+Generated response: The video shows a black and white dog approaching a white bowl on the floor. The dog sniffs the bowl, then begins to eat from it.
+Processing video: /tmp/gradio/08824bc21a4a08d3d767d758d03c2050a04a80ee638e552f7830c2b4ccd133b5/istockphoto-1818362731-640_adpp_is.mp4
+Generated response: The video shows a Dalmatian dog with black spots on a white coat, lying on a beige shaggy carpet. The dog is holding a bone in its mouth and appears to be chewing on it.
+Processing video: /tmp/gradio/b478b100cda61c97a106d7df2e3d2a09ad5245e3e516c4814fac7e30901dbecb/camera_1702105267694.mp4
+Generated response: The video shows a sequence of images depicting three individuals in an indoor setting, possibly a hallway or room with tiled walls. The individuals are dressed in casual clothing and appear to be engaged in a conversation or interaction. The environment suggests a residential or commercial building under construction or renovation, as indicated by the presence of construction materials and tools scattered around.
+Processing video: /tmp/gradio/4a446c7f7c3ccacbec401d29420992cd52f64af6d792f8ed131cb72602267af1/camera_1702952915782.mp4
+Generated response: The video shows a person holding a baby dressed in a red outfit with orange and white patterns. The background is a plain wall, and the lighting is consistent throughout the frames.
+Processing video: /tmp/gradio/9e0cf1f47219fbcdf9d8cde80f01aa59d35319867a50b6d9657c226c15858ad8/istockphoto-1318447934-640_adpp_is.mp4
+Generated response: The video shows a golden retriever dog lying on a grey bedspread, chewing on a colorful rope toy. The dog appears relaxed and content, with its eyes half-closed and mouth open in a playful manner.
+Processing video: /tmp/gradio/6e85a741d76be8f263aa655c989e0c00d84182df508ec807322bace2f2545bc4/camera_1711872398618.mp4
+Generated response: The video shows a woman in pink pajamas sitting on a bed with a baby. The room is decorated with various items, including a crib and a changing table.
+Processing video: /tmp/gradio/236d602d1a304218158efe2bfd4924cf546ac45cebfed26ea47f5cf0b3290019/camera_1687175171254.mp4
+Generated response: The video shows a man in a red shirt walking down a hallway with white walls and doors, holding a package.
+Processing video: /tmp/gradio/08824bc21a4a08d3d767d758d03c2050a04a80ee638e552f7830c2b4ccd133b5/istockphoto-1818362731-640_adpp_is.mp4
+Generated response: The video shows a Dalmatian dog with black spots on a white coat, lying on a beige shaggy carpet. The dog is holding a bone in its mouth and appears to be chewing on it.
+Processing video: /tmp/gradio/d4cc7ec2670e6a9a4562b2c22f4cc18dcd9d3d6793291d4a4518e6826e2a9802/camera_1689120616079.mp4
+Generated response: The video shows a man in a white shirt and dark pants walking down a stairwell with a red handrail.
+Processing video: /tmp/gradio/c3b319f52024c1bb0b1170e9c1e56ae493225f8d47399acbd813f14135d2e1be/camera_1691645114860.mp4
+Generated response: The video shows a woman entering an elevator, pressing the button for the 18th floor, and then exiting the elevator.
+Processing video: /tmp/gradio/480a9fa6afb9886aa7180845c07e15d0b3f26515123d7795a6b6286c8be1e255/camera_1711192742465.mp4
+Generated response: The video shows a person in a white shirt and blue pants sweeping the floor with a broom. The room has a white wall, a black lantern on the right side, and a table with two red candles and a blue origami crane in the center.
+Processing video: /tmp/gradio/4a446c7f7c3ccacbec401d29420992cd52f64af6d792f8ed131cb72602267af1/camera_1702952915782.mp4
+Generated response: The video shows a person holding a baby dressed in a red outfit with orange and white patterns. The background is a plain wall, and the lighting is consistent throughout the frames.
+Processing video: /tmp/gradio/9e0cf1f47219fbcdf9d8cde80f01aa59d35319867a50b6d9657c226c15858ad8/istockphoto-1318447934-640_adpp_is.mp4
+Generated response: The video shows a golden retriever dog lying on a grey bedspread, chewing on a colorful rope toy. The dog appears relaxed and content, with its eyes half-closed and mouth open in a playful manner.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: A person wearing a high-visibility vest and carrying a package approaches the house, climbs the steps, and enters through the door.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: A person wearing a high-visibility vest and carrying a package approaches the house, climbs the steps, and enters through the door.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: A person wearing a high-visibility vest and carrying a package approaches the house, climbs the steps, and enters through the door.
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+Generated response: A person wearing a dark jacket and jeans is seen approaching the front door of a house, picking up a package from the porch, and then leaving.
+Processing video: /tmp/gradio/b1f51db07dd9d568696b02f3407e09ea61cac269110a26bf5572a5ded68b24b3/5631-183849543_large.mp4
+Generated response: The video shows a black and white dog approaching a white bowl on the floor. The dog sniffs the bowl, then begins to eat from it.
+Processing video: /tmp/gradio/867c2572679e256ae499a3c1bfd6b1c98d608a019bcbab13602a621a9ef29c16/istockphoto-1084227724-640_adpp_is.mp4
+Generated response: A person wearing a dark jacket and jeans is seen approaching the front door of a house, picking up a package from the porch, and then leaving.
+Processing video: /tmp/gradio/710fcf08624953ac676e28b207b101a68bf97e2c14ec85ebd9a0d4fcb4e89839/istockphoto-2084479663-640_adpp_is.mp4
+Generated response: A person wearing a high-visibility vest and carrying a package approaches the house, climbs the steps, and enters through the door.
+Processing video: /tmp/gradio/b1f51db07dd9d568696b02f3407e09ea61cac269110a26bf5572a5ded68b24b3/5631-183849543_large.mp4
+Generated response: The video shows a black and white dog approaching a white bowl on the floor. The dog sniffs the bowl, then begins to eat from it.
+Processing video: /tmp/gradio/07928834d4be8b7872cc01f16c25075a5a5d951152a8466ff2aaf4598210b625/camera_1709532109455.mp4
+Generated response: The video shows a cat eating from a bowl on the floor in a room with wooden flooring, a window with curtains, and shelves with various items.

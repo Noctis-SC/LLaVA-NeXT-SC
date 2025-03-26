@@ -71,3 +71,10 @@ playground/*.json
 mlx_configs/
 data_processing/
 # demo/
+LLaVA-Video-7B-Qwen2
+LLaVA-Video-7B-Qwen2-hf
+SanyaChoi
+package_videos
+pets
+examples
+.gradio

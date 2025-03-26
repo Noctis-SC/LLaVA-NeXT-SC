@@ -22,6 +22,7 @@ import openai
 from PIL import Image
 
 
+import time
 
 import numpy as np
 
@@ -46,9 +47,9 @@ def parse_args():
     parser.add_argument("--video_path", help="Path to the video files.", required=True)
     parser.add_argument("--output_dir", help="Directory to save the model results JSON.", required=True)
     parser.add_argument("--output_name", help="Name of the file for storing results JSON.", required=True)
-    parser.add_argument("--model-path", type=str, default="facebook/opt-350m")
+    parser.add_argument("--model-path", type=str, default="lmms-lab/LLaVA-Video-7B-Qwen2")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--conv-mode", type=str, default=None)
+    parser.add_argument("--conv-mode", type=str, default="vicuna_v1")
     parser.add_argument("--chunk-idx", type=int, default=0)
     parser.add_argument("--mm_resampler_type", type=str, default="spatial_pool")
     parser.add_argument("--mm_spatial_pool_stride", type=int, default=4)
